@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd">
+ 	
+ 	<bean id="emp1" class="com.simplilearn.spring_core_demo.Employee">
+ 		<property name="empId" value="102"></property>
+ 		<property name="empName" value="Jennie Smith"></property>
+ 		<property name="empDept" value="Dev"></property>
+ 		<property name="empSalary" value="222121.003"></property>
+ 	</bean>
+ 	
+ 	<bean id="emp2" class="com.simplilearn.spring_core_demo.Employee">
+ 		<property name="empId" value="103"></property>
+ 		<property name="empName" value="Will Smith"></property>
+ 		<property name="empDept" value="Engineering"></property>
+ 		<property name="empSalary" value="22245.003"></property>
+ 	</bean>
+	
+</beans>
